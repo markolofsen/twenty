@@ -11553,9 +11553,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/graphql@npm:13.4.5":
+"@nestjs/graphql@git+https://github.com/markolofsen/graphql.git#29133754414d74a436b2fac5fd5e90316450f415":
   version: 13.4.5
-  resolution: "@nestjs/graphql@npm:13.4.5"
+  resolution: "@nestjs/graphql@https://github.com/markolofsen/graphql.git#commit=29133754414d74a436b2fac5fd5e90316450f415"
   dependencies:
     "@graphql-tools/merge": "npm:9.2.3"
     "@graphql-tools/schema": "npm:10.1.0"
@@ -11588,46 +11588,7 @@ __metadata:
       optional: true
     ts-morph:
       optional: true
-  checksum: 10c0/35c68afc2701f9b196cd9181d3399644e05073095efa0c6bfb1394e19794a6e057099d299d4b055d48b0dc77f5377d64a8dfbadb5f32a7560ad64eb099a56f42
-  languageName: node
-  linkType: hard
-
-"@nestjs/graphql@patch:@nestjs/graphql@npm%3A13.4.5#~/.yarn/patches/@nestjs-graphql-npm-13.4.5-2bf8ea7c63.patch":
-  version: 13.4.5
-  resolution: "@nestjs/graphql@patch:@nestjs/graphql@npm%3A13.4.5#~/.yarn/patches/@nestjs-graphql-npm-13.4.5-2bf8ea7c63.patch::version=13.4.5&hash=7fd9cc"
-  dependencies:
-    "@graphql-tools/merge": "npm:9.2.3"
-    "@graphql-tools/schema": "npm:10.1.0"
-    "@graphql-tools/utils": "npm:12.0.0"
-    "@nestjs/mapped-types": "npm:2.1.1"
-    chokidar: "npm:4.0.3"
-    graphql-tag: "npm:2.12.6"
-    graphql-ws: "npm:6.2.1"
-    lodash: "npm:4.18.1"
-    normalize-path: "npm:3.0.0"
-    subscriptions-transport-ws: "npm:0.11.0"
-    tinyglobby: "npm:0.2.17"
-    tslib: "npm:2.8.1"
-    ws: "npm:8.21.3"
-  peerDependencies:
-    "@apollo/subgraph": ^2.9.3
-    "@nestjs/common": ^11.0.1
-    "@nestjs/core": ^11.0.1
-    class-transformer: "*"
-    class-validator: "*"
-    graphql: ^16.11.0 || ^17.0.0
-    reflect-metadata: ^0.1.13 || ^0.2.0
-    ts-morph: ^20.0.0 || ^21.0.0 || ^24.0.0 || ^25.0.0 || ^26.0.0 || ^27.0.0 || ^28.0.0
-  peerDependenciesMeta:
-    "@apollo/subgraph":
-      optional: true
-    class-transformer:
-      optional: true
-    class-validator:
-      optional: true
-    ts-morph:
-      optional: true
-  checksum: 10c0/57b49cc2e1c9048e4514b68caa6b5f7856a3bad0c3a26573b52a59ce898116736d1717ad8d0769d5a68512f304d56ba8264017efb667951caaf96e66aad3b4b9
+  checksum: 10c0/2d0afee2c86c3aa9542261e78fdc37d8f2acd50fae6033cf2876da4f83abaa4ad27f7c67078eba1e20e908da484a2403506030bcbd209de0de6437ba3cb12fec
   languageName: node
   linkType: hard
 
@@ -27936,6 +27897,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"country-flag-icons@npm:^1.6.14":
+  version: 1.6.20
+  resolution: "country-flag-icons@npm:1.6.20"
+  checksum: 10c0/e270cbf3f31d8f57a7f6da56c15733897f4dcc9c7fd50f88c7d295d16cb9fd97dcae96c054b2d840916bec3f27472335201938dc569961d935da4c4d341f9d32
+  languageName: node
+  linkType: hard
+
 "cpu-features@npm:~0.0.10":
   version: 0.0.10
   resolution: "cpu-features@npm:0.0.10"
@@ -28473,9 +28441,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"danger@npm:13.0.8":
+"danger@git+https://github.com/markolofsen/danger-js.git#2bfacad4268957c759498d33299746c7525a1035":
   version: 13.0.8
-  resolution: "danger@npm:13.0.8"
+  resolution: "danger@https://github.com/markolofsen/danger-js.git#commit=2bfacad4268957c759498d33299746c7525a1035"
   dependencies:
     "@gitbeaker/rest": "npm:^38.0.0"
     "@octokit/rest": "npm:^20.1.2"
@@ -28520,58 +28488,7 @@ __metadata:
     danger-process: distribution/commands/danger-process.js
     danger-reset-status: distribution/commands/danger-reset-status.js
     danger-runner: distribution/commands/danger-runner.js
-  checksum: 10c0/019d200251a0159d334147b7e22af7c44876492b938f6aee5098211e3a336b841206bcc0da9646fb8c700138ee97b0fda9ee6542f433af287f9f6ae1ff43e7b6
-  languageName: node
-  linkType: hard
-
-"danger@patch:danger@npm%3A13.0.8#~/.yarn/patches/danger-npm-13.0.8-48aba2788c.patch":
-  version: 13.0.8
-  resolution: "danger@patch:danger@npm%3A13.0.8#~/.yarn/patches/danger-npm-13.0.8-48aba2788c.patch::version=13.0.8&hash=a0dbba"
-  dependencies:
-    "@gitbeaker/rest": "npm:^38.0.0"
-    "@octokit/rest": "npm:^20.1.2"
-    async-retry: "npm:1.2.3"
-    chalk: "npm:^4.1.2"
-    commander: "npm:^2.18.0"
-    core-js: "npm:^3.8.2"
-    debug: "npm:^4.1.1"
-    fast-json-patch: "npm:^3.0.0-1"
-    http-proxy-agent: "npm:^7.0.2"
-    https-proxy-agent: "npm:^7.0.2"
-    hyperlinker: "npm:^1.0.0"
-    ini: "npm:^5.0.0"
-    json5: "npm:^2.2.3"
-    jsonpointer: "npm:^5.0.0"
-    jsonwebtoken: "npm:^9.0.0"
-    lodash.includes: "npm:^4.3.0"
-    lodash.isobject: "npm:^3.0.2"
-    lodash.mapvalues: "npm:^4.6.0"
-    lodash.memoize: "npm:^4.1.2"
-    memfs-or-file-map-to-github-branch: "npm:^1.3.0"
-    micromatch: "npm:^4.0.4"
-    node-cleanup: "npm:^2.1.2"
-    node-fetch: "npm:^2.6.7"
-    override-require: "npm:^1.1.1"
-    parse-diff: "npm:^0.7.0"
-    parse-github-url: "npm:^1.0.2"
-    parse-link-header: "npm:^2.0.0"
-    pinpoint: "npm:^1.1.0"
-    prettyjson: "npm:^1.2.1"
-    readline-sync: "npm:^1.4.9"
-    regenerator-runtime: "npm:^0.13.9"
-    require-from-string: "npm:^2.0.2"
-    supports-hyperlinks: "npm:^4.3.0"
-  bin:
-    danger: distribution/commands/danger.js
-    danger-ci: distribution/commands/danger-ci.js
-    danger-init: distribution/commands/danger-init.js
-    danger-js: distribution/commands/danger.js
-    danger-local: distribution/commands/danger-local.js
-    danger-pr: distribution/commands/danger-pr.js
-    danger-process: distribution/commands/danger-process.js
-    danger-reset-status: distribution/commands/danger-reset-status.js
-    danger-runner: distribution/commands/danger-runner.js
-  checksum: 10c0/6407cfcb282a5e3d0ca31b4c7748cc6a3b91194b874b19c57a7a2598206901562b9a8528e598448baaeb18a62470537c279a5ce995548be8545a69fd05b06b3b
+  checksum: 10c0/b081845d53419b2284183d80b8a2253c54d3f650294d29ab81734638bf19028f461b9d267cc7eefe042a9de07ef75426f1d079404d891d67f1198e7fcc7eeeb7
   languageName: node
   linkType: hard
 
@@ -32044,21 +31961,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"front-matter@npm:4.0.2":
+"front-matter@git+https://github.com/markolofsen/front-matter.git#fe8cbd83b4f1b5f01630b9682e2d1fe5c5bd7678":
   version: 4.0.2
-  resolution: "front-matter@npm:4.0.2"
+  resolution: "front-matter@https://github.com/markolofsen/front-matter.git#commit=fe8cbd83b4f1b5f01630b9682e2d1fe5c5bd7678"
   dependencies:
     js-yaml: "npm:^3.13.1"
-  checksum: 10c0/7a0df5ca37428dd563c057bc17a8940481fe53876609bcdc443a02ce463c70f1842c7cb4628b80916de46a253732794b36fb6a31105db0f185698a93acee4011
-  languageName: node
-  linkType: hard
-
-"front-matter@patch:front-matter@npm%3A4.0.2#~/.yarn/patches/front-matter-npm-4.0.2-e1cc0efa69.patch":
-  version: 4.0.2
-  resolution: "front-matter@patch:front-matter@npm%3A4.0.2#~/.yarn/patches/front-matter-npm-4.0.2-e1cc0efa69.patch::version=4.0.2&hash=a71d01"
-  dependencies:
-    js-yaml: "npm:^3.13.1"
-  checksum: 10c0/e4341229cd8afae77fa7466f458b5d869cc247e26c66560ee22830bf14202058c10e0de3709b0bd281495446af885a6ca9369bd1352d794672c278504b5363e5
+  checksum: 10c0/accf0ff4dc5fd2fee8aad1d0b2d486d4d4cc9481caf31b03db1c5c92c20dea5e6ee3140732bce807109795dc2acd952b592ad90c878f991cab832ad5c0fc77b9
   languageName: node
   linkType: hard
 
@@ -34557,12 +34465,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"input-format@npm:^0.3.10":
-  version: 0.3.10
-  resolution: "input-format@npm:0.3.10"
+"input-format@npm:^0.3.14":
+  version: 0.3.14
+  resolution: "input-format@npm:0.3.14"
   dependencies:
     prop-types: "npm:^15.8.1"
-  checksum: 10c0/371b03593f272766e546d137dbc3c7f48ce57f1fa03f2d15c83eaa9f72f3e0160f4d2c92c363609ef1e8df4b3110fe2f1060931f1fb2252ad2c69202d47335f2
+  peerDependencies:
+    react: ">=18.1.0"
+    react-dom: ">=18.1.0"
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 10c0/37bb23e0dd15223b2ac8a25b09bc26e4d613cbd93c040dcdb490a1661dd0782c2742ad819b9dbd4b154a9e09ce1a69046a78e4ee943171b7ec86b07b50324ad6
   languageName: node
   linkType: hard
 
@@ -37521,7 +37437,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"libphonenumber-js@npm:1.11.5, libphonenumber-js@npm:^1.10.14, libphonenumber-js@npm:^1.10.26, libphonenumber-js@npm:^1.11.5":
+"libphonenumber-js@npm:1.11.5, libphonenumber-js@npm:^1.10.14, libphonenumber-js@npm:^1.10.26":
   version: 1.11.5
   resolution: "libphonenumber-js@npm:1.11.5"
   checksum: 10c0/c57b4d75d56fc32e611ea2dfdb196f18413caa1d72923250631ed0db915edb958b50f2ecee062241dbce98d9ed7afb6fe744776b6b325746cff0ab44ed69e756
@@ -37532,6 +37448,13 @@ __metadata:
   version: 1.12.26
   resolution: "libphonenumber-js@npm:1.12.26"
   checksum: 10c0/20d79a32f4ec8d4d67d32897085cfd74a2a4c950b1ff1b6bedc35da37f2f369a8b0a8798d0e8a7b4b91ad8633ef6476320f52051af489fbe70e35e0271e39da9
+  languageName: node
+  linkType: hard
+
+"libphonenumber-js@npm:^1.13.11":
+  version: 1.13.17
+  resolution: "libphonenumber-js@npm:1.13.17"
+  checksum: 10c0/ad6f13045a740d168d2802aa356c3246e3d36bc7b673bf306441a7f7fd61f32771f8fd1a139c20ec2a8ae167474be3253fa210dbe9b4f308840aba9c2b7ca5ed
   languageName: node
   linkType: hard
 
@@ -44578,35 +44501,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-phone-number-input@npm:3.4.5":
-  version: 3.4.5
-  resolution: "react-phone-number-input@npm:3.4.5"
+"react-phone-number-input@git+https://github.com/markolofsen/react-phone-number-input.git#e166344a8d6e95ef277937950e95056272715f2b":
+  version: 3.4.18
+  resolution: "react-phone-number-input@https://github.com/markolofsen/react-phone-number-input.git#commit=e166344a8d6e95ef277937950e95056272715f2b"
   dependencies:
     classnames: "npm:^2.5.1"
-    country-flag-icons: "npm:^1.5.11"
-    input-format: "npm:^0.3.10"
-    libphonenumber-js: "npm:^1.11.5"
+    country-flag-icons: "npm:^1.6.14"
+    input-format: "npm:^0.3.14"
+    libphonenumber-js: "npm:^1.13.11"
     prop-types: "npm:^15.8.1"
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 10c0/5131c863bee990af0e938e2c3ee61044e9f113965fe52294e6c3ed2a617ccfc2b8c163f601972bc4f5eedc6bc6b746da4b072c5135dcc77966f1f742df6b1d39
-  languageName: node
-  linkType: hard
-
-"react-phone-number-input@patch:react-phone-number-input@npm%3A3.4.5#../../.yarn/patches/react-phone-number-input-npm-3.4.5-dc2895c306.patch::locator=twenty-front%40workspace%3Apackages%2Ftwenty-front":
-  version: 3.4.5
-  resolution: "react-phone-number-input@patch:react-phone-number-input@npm%3A3.4.5#../../.yarn/patches/react-phone-number-input-npm-3.4.5-dc2895c306.patch::version=3.4.5&hash=4d6a74&locator=twenty-front%40workspace%3Apackages%2Ftwenty-front"
-  dependencies:
-    classnames: "npm:^2.5.1"
-    country-flag-icons: "npm:^1.5.11"
-    input-format: "npm:^0.3.10"
-    libphonenumber-js: "npm:^1.11.5"
-    prop-types: "npm:^15.8.1"
-  peerDependencies:
-    react: ">=16.8"
-    react-dom: ">=16.8"
-  checksum: 10c0/24d6cc7fcae591eb9c34f00ad781dcc0578fab0516bba3d4594dfe5c0e9debfb9d0c7ebe531a886e4694078dcba5b2e9b1d6d632759cc8d2de3d8b86448371a8
+  checksum: 10c0/718d9fcc22ec0f23dfc74a7ac56202fa9122e32eec2a48ebbe8224bb5e62a8c44ebd76cd94ad628dd07e6ee7b3f39c559592214b89019ffbfa3c0d4ca23936e7
   languageName: node
   linkType: hard
 
@@ -50208,7 +50115,7 @@ __metadata:
     react-intersection-observer: "npm:^9.15.1"
     react-loading-skeleton: "npm:^3.3.1"
     react-markdown: "npm:^10.1.0"
-    react-phone-number-input: "patch:react-phone-number-input@npm%3A3.4.5#../../.yarn/patches/react-phone-number-input-npm-3.4.5-dc2895c306.patch"
+    react-phone-number-input: "git+https://github.com/markolofsen/react-phone-number-input.git#e166344a8d6e95ef277937950e95056272715f2b"
     react-qr-code: "npm:^2.0.18"
     react-responsive: "npm:^9.0.2"
     react-router-dom: "npm:^7.18.4"
@@ -50336,7 +50243,7 @@ __metadata:
     "@nestjs/config": "npm:^4.0.4"
     "@nestjs/core": "npm:^11.2.1"
     "@nestjs/event-emitter": "npm:2.1.0"
-    "@nestjs/graphql": "patch:@nestjs/graphql@npm%3A13.4.5#~/.yarn/patches/@nestjs-graphql-npm-13.4.5-2bf8ea7c63.patch"
+    "@nestjs/graphql": "git+https://github.com/markolofsen/graphql.git#29133754414d74a436b2fac5fd5e90316450f415"
     "@nestjs/jwt": "npm:11.0.1"
     "@nestjs/passport": "npm:11.0.5"
     "@nestjs/platform-express": "npm:11.2.1"
@@ -50506,7 +50413,7 @@ __metadata:
     twenty-oxlint-rules: "workspace:*"
     twenty-shared: "workspace:*"
     type-fest: "npm:4.10.1"
-    typeorm: "patch:typeorm@0.3.31#./patches/typeorm+0.3.31.patch"
+    typeorm: "git+https://github.com/markolofsen/typeorm.git#27003cfad226b49a6c9dce3e3cfe5167a007fdb6"
     unzipper: "npm:^0.12.3"
     uuid: "npm:^11.1.1"
     zod: "npm:^4.1.11"
@@ -50636,7 +50543,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "twenty-utils@workspace:packages/twenty-utils"
   dependencies:
-    danger: "patch:danger@npm%3A13.0.8#~/.yarn/patches/danger-npm-13.0.8-48aba2788c.patch"
+    danger: "git+https://github.com/markolofsen/danger-js.git#2bfacad4268957c759498d33299746c7525a1035"
     danger-plugin-todos: "npm:^1.3.1"
   languageName: unknown
   linkType: soft
@@ -50962,9 +50869,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typeorm@npm:0.3.31":
+"typeorm@git+https://github.com/markolofsen/typeorm.git#27003cfad226b49a6c9dce3e3cfe5167a007fdb6":
   version: 0.3.31
-  resolution: "typeorm@npm:0.3.31"
+  resolution: "typeorm@https://github.com/markolofsen/typeorm.git#commit=27003cfad226b49a6c9dce3e3cfe5167a007fdb6"
   dependencies:
     "@sqltools/formatter": "npm:^1.2.5"
     ansis: "npm:^4.3.1"
@@ -51032,87 +50939,10 @@ __metadata:
     typeorm-aurora-data-api-driver:
       optional: true
   bin:
-    typeorm: cli.js
-    typeorm-ts-node-commonjs: cli-ts-node-commonjs.js
-    typeorm-ts-node-esm: cli-ts-node-esm.js
-  checksum: 10c0/c49e6fd237e58780b8e0ca1989778c791c38fc737cd9f99dc38dfa43133e1da7350c7b84ebde0462c73e5d8aea4736afdea63a332963b49117d32bc5504d4c46
-  languageName: node
-  linkType: hard
-
-"typeorm@patch:typeorm@0.3.31#./patches/typeorm+0.3.31.patch::locator=twenty-server%40workspace%3Apackages%2Ftwenty-server":
-  version: 0.3.31
-  resolution: "typeorm@patch:typeorm@npm%3A0.3.31#./patches/typeorm+0.3.31.patch::version=0.3.31&hash=e61204&locator=twenty-server%40workspace%3Apackages%2Ftwenty-server"
-  dependencies:
-    "@sqltools/formatter": "npm:^1.2.5"
-    ansis: "npm:^4.3.1"
-    app-root-path: "npm:^3.1.0"
-    buffer: "npm:^6.0.3"
-    dayjs: "npm:^1.11.21"
-    debug: "npm:^4.4.3"
-    dedent: "npm:^1.7.2"
-    dotenv: "npm:^16.6.1"
-    glob: "npm:^10.5.0"
-    reflect-metadata: "npm:^0.2.2"
-    sha.js: "npm:^2.4.12"
-    sql-highlight: "npm:^6.1.0"
-    tslib: "npm:^2.8.1"
-    uuid: "npm:^11.1.1"
-    yargs: "npm:^17.7.3"
-  peerDependencies:
-    "@google-cloud/spanner": ^5.18.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-    "@sap/hana-client": ^2.14.22
-    better-sqlite3: ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0
-    ioredis: ^5.0.4
-    mongodb: ^5.8.0 || ^6.0.0
-    mssql: ^9.1.1 || ^10.0.0 || ^11.0.0 || ^12.0.0
-    mysql2: ^2.2.5 || ^3.0.1
-    oracledb: ^6.3.0 || ^7.0.0
-    pg: ^8.5.1
-    pg-native: ^3.0.0
-    pg-query-stream: ^4.0.0
-    redis: ^3.1.1 || ^4.0.0 || ^5.0.14
-    sql.js: ^1.4.0
-    sqlite3: ^5.0.3 || ^6.0.0
-    ts-node: ^10.7.0
-    typeorm-aurora-data-api-driver: ^2.0.0 || ^3.0.0
-  peerDependenciesMeta:
-    "@google-cloud/spanner":
-      optional: true
-    "@sap/hana-client":
-      optional: true
-    better-sqlite3:
-      optional: true
-    ioredis:
-      optional: true
-    mongodb:
-      optional: true
-    mssql:
-      optional: true
-    mysql2:
-      optional: true
-    oracledb:
-      optional: true
-    pg:
-      optional: true
-    pg-native:
-      optional: true
-    pg-query-stream:
-      optional: true
-    redis:
-      optional: true
-    sql.js:
-      optional: true
-    sqlite3:
-      optional: true
-    ts-node:
-      optional: true
-    typeorm-aurora-data-api-driver:
-      optional: true
-  bin:
-    typeorm: cli.js
-    typeorm-ts-node-commonjs: cli-ts-node-commonjs.js
-    typeorm-ts-node-esm: cli-ts-node-esm.js
-  checksum: 10c0/aea962f5c7d2d1231d3de85f4ecc3100866aec0c0c411396f5c5ffae4a5e92d22676ceb35dd934c55f6459e2d804241c1a05ec7aad431f5b5df65629db16f79a
+    typeorm: ./cli.js
+    typeorm-ts-node-commonjs: ./cli-ts-node-commonjs.js
+    typeorm-ts-node-esm: ./cli-ts-node-esm.js
+  checksum: 10c0/1cd23ec6d98f3457aa2b90cdf47372c2ec44c4279d802487f50abd69bee642b90bbcbd23479d76835988b9188c683a46d277851b5cb2de8e5fc9b00f713aa3c6
   languageName: node
   linkType: hard
 
