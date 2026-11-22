@@ -28,7 +28,6 @@ COPY ./.yarn/releases /app/.yarn/releases
 
 COPY ./packages/twenty-emails/package.json /app/packages/twenty-emails/
 COPY ./packages/twenty-server/package.json /app/packages/twenty-server/
-COPY ./packages/twenty-server/patches /app/packages/twenty-server/patches
 COPY ./packages/twenty-shared/package.json /app/packages/twenty-shared/
 COPY ./packages/twenty-client-sdk/package.json /app/packages/twenty-client-sdk/
 COPY ./packages/twenty-oxlint-rules/package.json /app/packages/twenty-oxlint-rules/
@@ -114,7 +113,6 @@ COPY --chown=1000 --from=twenty-server-build /app/node_modules /app/node_modules
 # Server package (compiled dist + package.json only, no src/)
 COPY --chown=1000 --from=twenty-server-build /app/packages/twenty-server/package.json /app/packages/twenty-server/
 COPY --chown=1000 --from=twenty-server-build /app/packages/twenty-server/dist /app/packages/twenty-server/dist
-COPY --chown=1000 --from=twenty-server-build /app/packages/twenty-server/patches /app/packages/twenty-server/patches
 # Shell entrypoints referenced by package.json scripts (command:prod:background*)
 COPY --chown=1000 --from=twenty-server-build /app/packages/twenty-server/scripts /app/packages/twenty-server/scripts
 # COPY preserves the committed mode, but the scripts are also invoked directly
@@ -250,7 +248,6 @@ COPY --from=twenty-server-build /app/node_modules /app/node_modules
 # Server package (compiled dist + package.json only, no src/)
 COPY --from=twenty-server-build /app/packages/twenty-server/package.json /app/packages/twenty-server/
 COPY --from=twenty-server-build /app/packages/twenty-server/dist /app/packages/twenty-server/dist
-COPY --from=twenty-server-build /app/packages/twenty-server/patches /app/packages/twenty-server/patches
 
 # Workspace packages (dist + package.json; node_modules symlinks resolve to these)
 COPY --from=twenty-server-build /app/packages/twenty-shared/package.json /app/packages/twenty-shared/
